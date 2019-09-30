@@ -1,10 +1,8 @@
-ECHO off
+ECHO OFF
 
 SET /p folder="In which path should the folders be created?"
 SET /p folderName="How would you like to name your folders?"
 SET /p counter="How many folders should be created?"
-
-PAUSE
 
 IF NOT EXIST %folder% (
 	ECHO Given path is not existing.
